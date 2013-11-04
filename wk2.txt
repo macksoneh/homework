@@ -1,0 +1,100 @@
+
+
+On Oct 23, 2013 1:53 PM at 1:53 PM, Sone, Mack wrote:
+
+Hi Shengliang Song,
+
+Thanks for confirming and clarifying the assignments for WK1 and WK2.
+
+Mack
+
+On Oct 23, 2013 12:44 PM at 12:44 PM, Song, Sheng-Liang wrote:
+
+HI Mack,
+
+Thanks a lot for creating the list.  I added some detail below.
+
+For those students have ZERO linux background, you may skip these homeworks.  (You may choose this course for credit option.) 
+
+Please review those students projects from last section, please bring project questions to class?  Up to 3 students can form as group to finish your class project. 
+
+Thanks,
+
+Shengliang Song
+
+On Oct 23, 2013 12:05 PM at 12:05 PM, Sone, Mack wrote:
+
+Hi Sheng-Liang and classmaites,
+
+Could someone please confirm the following list?  I'm not sure if I got it right for what I'm supposed to do for WK1 and WK2 assignments;
+
+A high-level assignment summary for WK1 and WK2
+
+    Week#1 To Do list:
+    Download and install VirtualBox on Windows running on PC
+    Download and install Ubuntu on VirtualBox
+    SONG: Install arm embedded compiler (gcc, git, gitk)
+    Create git account at https://github.com/  (<== SONG: correction)
+    Create a local repository of git on Ubuntu by following the instructions provided in e4357/hw1/git.txt
+    Write a C program for the HW assignment and check in the code with git (HW for WK#1)
+    (note: check in all homework to github )
+    submit all your github link to ucsc course homework site.
+    ==========================
+    Week#2 To Do list:
+    Complete Quize#1
+    create an account at http://mbed.org/
+    try online compile with Hello World program http://mbed.org/handbook/SerialPC
+    export to program to IDE, and GCC
+    create an account at http://www.arm.com/
+    Download and install a mbed development IDE, such as Keil from MDK version 5 ARM
+    Connect and establish communication between  mbed(LPC1768 or Freescale) and PC
+    Load the executable code in LPC1768 (HW for WK#2)
+    Execute a code in LPC1768 and display on a PC (HW for WK#2)
+    Answer questions in hw2/readme.txt
+    Read ARM Architecture documents
+    Read Quiz#2
+
+
+To 	All Participants; All Participants; Song, Sheng-Liang; All Participants; Sone, Mack; All Participants
+Subject 	Re: A high-level assignment summary for WK1 and WK2
+Authored By 	Song, Sheng-Liang ( Oct 25, 2013 10:46 AM )
+Label 	Normal
+	
+
+I mean "gcc-arm-none-eabi" gcc.
+
+% which gcc-arm-none-eabi-gcc
+
+If you do not have them, you need follow the following step to install them.
+
+https://launchpad.net/~terry.guo/+archive/gcc-arm-embedded
+
+Here are quick steps to install toolchain from this PPA:
+
+Step1: Inside Ubuntu, open a terminal and input
+       "sudo add-apt-repository ppa:terry.guo/gcc-arm-embedded"
+
+Step2: Continue to input
+       "sudo apt-get update"
+
+Step3: Continue to input to install toolchain
+       "sudo apt-get install gcc-arm-none-eabi"
+
+To remove installed toolchain, just input "sudo apt-get remove gcc-arm-none-eabi".
+To update the toolchain, just repeat above step2 and step3.
+ 
+
+ 
+
+On Oct 25, 2013 9:50 AM at 9:50 AM, Sone, Mack wrote:
+
+Hi Sheng-Liang,
+
+>SONG: Install arm embedded compiler (gcc, git, gitk)
+
+Do I need to install gcc? I thought Ubuntu 12.04 LTS comes with gcc C compiler.
+
+Thanks,
+
+Mack
+ 
